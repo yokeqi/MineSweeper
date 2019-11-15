@@ -1,22 +1,12 @@
-# 扫雷
+# MineSweeper
 
 #### Description
-扫雷是windows系统自带的非常经典的一款小游戏。
+MineSweeper是windows系统自带的Very经典的一款Game。
+
 
 #### Software Architecture
-Software architecture description
+Web:Html+JQuery+CSS
 
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### Contribution
 
