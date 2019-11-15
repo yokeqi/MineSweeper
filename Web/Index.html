@@ -1,0 +1,45 @@
+﻿<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>扫雷(MineSweeper)-练习版</title>
+    <script src="./scripts/import/jquery-3.4.1.min.js"></script>
+    <script src="./scripts/core.js"></script>
+    <link rel="stylesheet" type="text/css" href="./scripts/core.css" />
+    <link rel="icon" href="./imgs/boom.gif" type="image/x-icon" />
+</head>
+<body>
+    <h1 style="text-align:center">扫雷小游戏</h1>
+    <img id="line" src="./imgs/title.gif" />
+    <div id="three_ball" class="three_ball"></div>
+    <div style="">
+        <strong style="">扫雷是windows系统自带的非常经典的一款小游戏。</strong><br />
+        <strong>胜利条件：</strong>你需要在不点错雷的情况下尽可能快的将所有的雷都标记出来，如果你点错，就得重新开始，所以扫雷也有一定的运气成分。<br />
+        <strong>玩法：</strong>
+        <ul>
+            <li><b>左键单击</b>标记雷(格子会变成红色)。</li>
+            <li><b>左键双击</b>来翻开格子。</li>
+            <li>如果翻开的是雷，则游戏结束。</li>
+            <li>如果标记了所有雷，并全部翻开其他格子，则游戏胜利。</li>
+        </ul>
+    </div>
+    <hr />
+    <table>
+        <tr>
+            <th width="200"></th>
+            <th width="200"></th>
+            <th width="200"></th>
+        </tr>
+        <tr>
+            <td>格子规格：9×9</td>
+            <td>雷数量:10</td>
+        </tr>
+        <tr>
+            <td><button onclick="buildGame()">重新开始</button></td>
+        </tr>
+    </table>
+    <hr />
+
+    <strong id="msg" style="color:red">Boom!!!游戏结束.</strong>
+    <div id="panel" />
+</body>
+</html>
